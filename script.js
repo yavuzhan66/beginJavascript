@@ -5,6 +5,7 @@ let firstNumber = 1;
 let secondNumber = 2;
 const result = firstNumber + secondNumber;
 console.log('ADDITION-MASTER ™️');
+await prompt("What's the first number? "); 
 
 // 🦁 Utilise la function "prompt" pour demander le premier nombre à l'utilisateur
 // 🦁 Stocke le résultat dans une variable "firstNumber" et utilise `Number()` pour convertir la valeur en nombre
